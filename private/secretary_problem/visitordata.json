@@ -1,0 +1,15 @@
+{
+    "target": "visitor",
+    "candidate": [
+        {
+            "index": 1,
+            "firstName": "Alice",
+            "rank": 6
+        },
+        {
+        	"index": 2,
+            "firstName": "Alice",
+            "rank": 6
+        }
+    ]
+}

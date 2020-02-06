@@ -1,0 +1,35 @@
+{
+   "id":"100",
+   "logo":{
+      "url":"https://secure.meetupstatic.com/photos/member/4/2/e/7/member_241997127.jpeg",
+      "original":{
+         "url":"https://secure.meetupstatic.com/photos/member/4/2/e/7/member_241997127.jpeg",
+         "width":1269,
+         "height":873
+      }
+   },
+   "start":{
+      "timezone":"America/New_York",
+      "local":"2019-01-20T20:00:00",
+      "utc":"2019-01-21T01:00:00Z"
+   },
+   "end":{
+      "timezone":"America/New_York",
+      "local":"2019-01-21T00:00:00",
+      "utc":"2019-01-21T05:00:00Z"
+   },
+   "status":"live",
+   "description":{
+      "text":"Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros.",
+      "html":"Profile description"
+   },
+   "name":{
+      "text":"Yinyin",
+      "html":"Yinyin"
+   },
+   "language":"en-us",
+   "created":"2018-12-21T19:49:34Z",
+   "is_locked":false,
+   "changed":"2018-12-21T19:50:56Z",
+   "url":"https://www.meetup.com/SF-Big-Analytics/members/182849434/"
+}

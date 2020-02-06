@@ -1,0 +1,21 @@
+{{extend 'layout.html'}} {{block header}}
+<div class="jumbotron jumbotron-fluid background" style="background-color: #333; color:white; padding:5px;word-wrap:break-word;">
+  <div class="container center">
+    <h2>{{=message}}</h2>
+  </div>
+</div>
+{{end}}
+
+<div class="col-md-12">
+
+  {{if 'message' in globals():}}
+  <p class="lead center">{{=T('Testing matching system.')}}</p>
+  <div class="jumbotron jumbotron-fluid" style="padding:30px;word-wrap:break-word;">
+    <!--recommand for event-->
+    <div class="jumbotron" style="padding:30px;word-wrap:break-word; background-color:#ffffff !important;">
+      <small class="text-muted">Log: {{=XML(logOut)}}</small>
+    </div>
+  </div>
+  {{elif 'content' in globals():}} {{=content}} {{else:}} {{=BEAUTIFY(response._vars)}} {{pass}}
+
+</div>

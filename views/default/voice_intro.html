@@ -1,0 +1,40 @@
+{{extend 'layout.html'}}
+<script>
+  jQuery(document).ready(function() {
+    $('.voice_intro').on('click', function() {
+      console.log("voice_intro");
+      window.location.href = "voice_intro";
+    });
+    $('[data-toggle="tooltip"]').tooltip();
+  });
+</script>
+
+<div class="jumbotron jumbotron-fluid" style="padding-top:10px !important;">
+  <div class="col-md-5">
+    <div class="wrap" style="height:500px;">
+
+      {{include 'default/fake_event.html'}}
+
+      <div class="card mb-4 box-shadow" style="margin-bottom: 5px !important;">
+        <ul class="list-unstyled" style="margin-bottom: 0px !important;">
+          <li class="media">
+            <img src="https://avatars0.githubusercontent.com/u/2552531?s=460&v=4" class="mr-3 profile-small" alt="...">
+            <div class="media-body">
+              <audio id="player2" preload="none" controls style="max-width:100%;">
+                <source src="{{=URL('static','media/chris_voicerecord.m4a')}}" type="audio/mp3">
+              </audio>
+              <img class="firstlang" data-toggle="tooltip" data-placement="top" title="Speaks social level Korean" src="http://www.myiconfinder.com/uploads/iconsets/256-256-4e10583b750e5618f8fab31ec759b662.png">
+              <h4>Chris Y</h4>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- player styling does not work -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="https://github.com/mediaelement/mediaelement/blob/master/build/mediaelementplayer.css">
+<script src="https://github.com/mediaelement/mediaelement/blob/master/build/mediaelement-and-player.js"></script>

@@ -1,0 +1,70 @@
+{{extend 'layout.html'}}
+
+
+<script>
+jQuery(document).ready(function(){
+   /*$('.list-group-item').on('touchstart', function() {
+        console.log("touched");
+        $(this).toggleClass("list-group-item-primary");
+    });*/
+
+
+   $('.list-group-item').on('click', function(e) {
+        e.preventDefault();
+        console.log("clicked");
+        $(this).toggleClass("list-group-item-primary");
+    });
+
+   $('.goto_index').on('click', function() {
+        console.log("goto_index click");
+        window.location.href = "index";
+    });
+
+});
+</script>
+
+
+
+<div class="jumbotron jumbotron-fluid background" style="background-color: #333; color:white; padding:5px;word-wrap:break-word; margin-bottom:1px;">
+    <div class="container center">
+        <h4>Select Interests</h4>
+    </div>
+</div>
+
+<!-- Start Emergency Event -->
+<div class="jumbotron jumbotron-fluid" style="padding:30px;word-wrap:break-word;">
+
+    <div class="row">
+        <div class="col-md-4">
+            
+                
+            <div class="list-group">
+              <a href="#" class="list-group-item list-group-item-action">Music - Rock out</a>
+              <a href="#" class="list-group-item list-group-item-action">Arts - Enrich your life</a>
+              <a href="#" class="list-group-item list-group-item-action">Business - Get connected</a>
+              <a href="#" class="list-group-item list-group-item-action">Parties - Play hard</a>
+              <a href="#" class="list-group-item list-group-item-action">Classes - Learn something new</a>
+              <a href="#" class="list-group-item list-group-item-action">Sport & welleness - Get moving</a>
+              <a href="#" class="list-group-item list-group-item-action">Food & Drink - Savor the flavor</a>
+              <a href="#" class="list-group-item list-group-item-action">Education & Technology</a>
+              <a href="#" class="list-group-item list-group-item-action">Beauty</a>
+              <a href="#" class="list-group-item list-group-item-action">Adventure</a>
+              <a href="#" class="list-group-item list-group-item-action">Converstation</a>
+              <a href="#" class="list-group-item list-group-item-action">Cultural Exchange</a>
+              <a href="#" class="list-group-item list-group-item-action">Hiking</a>
+              <a href="#" class="list-group-item list-group-item-action">Activism</a>
+            </div>
+
+
+            <button type="button" class="btn btn-primary btn-lg btn-block btn-warning btn-call goto_index">
+                <a href="index">Done!</a>
+            </button>
+
+        </div>
+    </div>
+
+</div>
+<!-- End Emergency Event -->
+
+
+

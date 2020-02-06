@@ -1,0 +1,56 @@
+{
+   "index":1,
+   "name":"Visitor Bob",
+   "score_category":{
+      "location":{
+         "latitude":"49.28497549999999",
+         "longitude":"123.11082529999999"
+      },
+      "date":{
+         "start":"2019-01-21T00:00:00",
+         "end":"2019-01-23T22:00:00"
+      },
+      "interest":[
+         {
+            "index":1,
+            "category":"Music",
+            "rank":4
+         },
+         {
+            "index":2,
+            "category":"Food",
+            "rank":3
+         },
+         {
+            "index":3,
+            "category":"Drink",
+            "rank":2
+         },
+         {
+            "index":4,
+            "category":"Social",
+            "rank":1
+         }
+      ],
+      "fee_rates":{
+         "fixed":{
+            "currency":"USD",
+            "value":432,
+            "major_value":"4.32",
+            "display":"4.32 USD"
+         },
+         "maximum":{
+            "currency":"USD",
+            "value":432,
+            "major_value":"4.32",
+            "display":"4.32 USD"
+         },
+         "minimum":{
+            "currency":"USD",
+            "value":432,
+            "major_value":"4.32",
+            "display":"4.32 USD"
+         }
+      }
+   }
+}

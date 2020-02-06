@@ -1,0 +1,35 @@
+{
+    "id":"103",
+   "logo":{
+      "url":"https://secure.meetupstatic.com/photos/member/7/7/a/7/member_259650631.jpeg",
+      "original":{
+         "url":"https://secure.meetupstatic.com/photos/member/7/7/a/7/member_259650631.jpeg",
+         "width":1269,
+         "height":873
+      }
+   },
+   "start":{
+      "timezone":"America/New_York",
+      "local":"2019-01-20T20:00:00",
+      "utc":"2019-01-21T01:00:00Z"
+   },
+   "end":{
+      "timezone":"America/New_York",
+      "local":"2019-01-21T00:00:00",
+      "utc":"2019-01-21T05:00:00Z"
+   },
+   "status":"live",
+   "description":{
+      "text":"Profile description",
+      "html":"Profile description"
+   },
+   "name":{
+      "text":"Marcus K",
+      "html":"Marcus K"
+   },
+   "language":"en-us",
+   "created":"2018-12-21T19:49:34Z",
+   "is_locked":false,
+   "changed":"2018-12-21T19:50:56Z",
+   "url":"https://www.meetup.com/SF-Big-Analytics/members/211919340/"
+}

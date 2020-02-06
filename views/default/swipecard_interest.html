@@ -1,0 +1,54 @@
+<div class="row">
+  <div class="col-md-12">
+
+    <div class="jumbotron jumbotron-fluid" style="padding:10px;word-wrap:break-word;">
+      <div class="row">
+        <div class="col-md-5">
+          <!-- start padding container -->
+          <div class="wrap">
+            <!-- start jtinder container -->
+            <div style="background-color:none !important;" id="tinderslide">
+              <ul>
+                {{for i in range(len(cardOut)):}}
+                {{
+                        idx=cardOut[i]['index']
+                        name=cardOut[i]['item']
+                        id=cardOut[i]['id']
+                        img=cardOut[i]['img']
+                }}
+                <li style="" class="pane interests">
+                  <div class="box-shadow">
+                    <i class="{{=img}} fa-5x"></i>
+                    <div class="card-body">
+                      <h3>{{=name}}</h3>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-muted">Idx:{{=idx}}|id:{{=id}}</small>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                {{pass}}
+              </ul>
+            </div>
+            <!-- end jtinder container -->
+          </div>
+          <!-- end padding container -->
+
+          <div class="actions">
+            <a href="#" class="dislike">
+              <i></i>
+            </a>
+            <a href="#" class="like">
+              <i></i>
+            </a>
+          </div>
+
+          <!-- jTinder status text  -->
+          <div id="status">Please Choose</div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
