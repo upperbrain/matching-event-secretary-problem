@@ -50,7 +50,8 @@ The app has log page that logs the result of matching.
 <img src="./doc/127.0.0.1_8000_init_default_score(iPad).png" width="400" />
 
 ## Voice Introduction Hearing
-This app was a part of MVP that I was building, and it has function that you can listen introduction of specific events. The very first event has the voice introduction. Check belowe screenshot. 
+This app was a part of MVP that I was building, and it has function that you can listen introduction of specific events. The very first event has the voice introduction. Check belowe screenshot.
+
 <img src="./doc/web2py_app_screenrecord_02.gif" alt="Event VS Coach VS Visitor matching application" />
 <i>Listening voice introduction of event</i>
 
